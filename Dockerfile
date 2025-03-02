@@ -8,4 +8,4 @@ COPY AlwaysRememberUsThisWay.txt .
 
 RUN mkdir -p /home/data/output
 
-CMD ["python", "script.py"]
+CMD python script.py && bash
